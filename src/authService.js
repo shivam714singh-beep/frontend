@@ -1,5 +1,5 @@
 // Adjust this if your backend is running on a different host/port
-const API_BASE = 'http://localhost:8081';
+const API_BASE = 'http://34.69.79.217:8081';
 
 const authService = {
   /**

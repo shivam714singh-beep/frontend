@@ -21,7 +21,7 @@ function FileUpload() {
     formData.append("file", file);
 
     try {
-      await axios.post("http://localhost:8081/v1/api/file/upload", formData, {
+      await axios.post("http://34.69.79.217:8081/v1/api/file/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           "Authorization": "Bearer " + authService.getToken(),

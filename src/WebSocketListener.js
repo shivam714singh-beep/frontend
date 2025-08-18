@@ -8,7 +8,7 @@ export default function WebSocketListener() {
 
   useEffect(() => {
     // Update ONLY THIS line if your backend is at a new host/port!
-    const socket = new SockJS("http://localhost:8082/ws");
+    const socket = new SockJS("http://34.69.79.217:8082/ws");
     const stompClient = new Client({
       webSocketFactory: () => socket,
       onConnect: () => {
